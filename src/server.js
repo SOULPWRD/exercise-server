@@ -21,7 +21,6 @@ const server = new Hapi.Server({
 
 //setup connections
 server.connection({
-  host: '127.0.0.1',
   port: process.env.PORT || 8000
 });
 
